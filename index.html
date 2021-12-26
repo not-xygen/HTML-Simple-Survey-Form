@@ -18,30 +18,30 @@
     </header>
     <main>
         <form id="survey-form">
-            <div class="form-group" id="nameField">
-                <label for="name">Name</label>
-                <input class="fieldbox" type="text" id="name" placeholder="Enter your name">
+            <div class="form-group">
+                <label for="name" id="name-label">Name</label>
+                <input class="fieldbox" type="text" id="name" placeholder="Enter your name" required>
             </div>
-            <div class="form-group" id="emailField">
-                <label for="email">Email</label>
-                <input class="fieldbox" type="email" id="email" placeholder="Enter your Email">
+            <div class="form-group">
+                <label for="email" id="email-label">Email</label>
+                <input class="fieldbox" type="email" id="email" placeholder="Enter your Email" required>
             </div>
-            <div class="form-group" id="ageField">
-                <label for="number">How many Payload or Satellite do you want to send?</label>
-                <input class="fieldbox" type="number" id="number" placeholder="Enter how many number of Payload">
+            <div class="form-group">
+                <label for="number" id="number-label">How many Payload or Satellite do you want to send?</label>
+                <input class="fieldbox" type="number" id="number" placeholder="Enter how many number of Payload" min="1" max="20">
             </div>
             <div class="form-group" id="radioField">
                 <p>Weight Payload :</p>
                 <div class="radioChoices">
-                    <input type="radio" id=">0-5t">
+                    <input type="radio" id=">0-5t" name="tons" value=">0-5t">
                     <label for=">0-5t">>0 - 5 tons</label>
                 </div>
                 <div class="radioChoices">
-                    <input type="radio" id=">5-20t">
+                    <input type="radio" id=">5-20t" name="tons" value=">5-20t">
                     <label for=">5-20t">>5 - 20 tons</label>
                 </div>
                 <div class="radioChoices">
-                    <input type="radio" id=">20-100t">
+                    <input type="radio" id=">20-100t" name="tons" value=">20-100t">
                     <label for=">20-100t">>20 - 100 tons</label>
                 </div>        
             </div>
@@ -62,19 +62,19 @@
             <div class="form-group" id="checkboxField">
                 <p>Add-ons for onboard Service :</p>
                 <div class="checkboxChoices">
-                    <input type="checkbox" name="telemetry" id="telemetry">
+                    <input type="checkbox" value="telemetry" id="telemetry">
                     <label for="telemetry">Telemetry Boost for Payload</label>
                 </div>
                 <div class="checkboxChoices">
-                    <input type="checkbox" name="comms" id="comms">
+                    <input type="checkbox" value="comms" id="comms">
                     <label for="comms">Ground Services from SpaceX</label>
                 </div>
                 <div class="checkboxChoices">
-                    <input type="checkbox" name="battery" id="battery">
+                    <input type="checkbox" value="battery" id="battery">
                     <label for="battery">Extra Power from Second Stage</label>
                 </div>
                 <div class="checkboxChoices">
-                    <input type="checkbox" name="orbit+" id="orbit+">
+                    <input type="checkbox" value="orbit+" id="orbit+">
                     <label for="orbit+">Changing Orbit for the Payload</label>
                 </div>
             </div>
