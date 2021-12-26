@@ -1,0 +1,123 @@
+$backgroundgray : hsl(0, 0%, 15%);
+$backgroundgrayish : hsl(0, 0%, 10%);
+$fontPoppins : "Poppins";
+
+body {
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(https://www.teslarati.com/wp-content/uploads/2021/08/Super-Heavy-B4-Starship-S20-fit-check-080621-SpaceX-10-crop-c.jpg);
+    color: white;
+    font-family: $fontPoppins, sans-serif;
+    margin: 0;
+
+    header {
+        text-align: center;
+        padding: 25px;
+        
+        h1 {
+            margin: 0;
+        }
+
+        p {
+            margin: 0;
+        }
+
+        img {
+            position: relative;
+        }
+    }
+
+    main {
+        display: flex;
+        justify-content: center;
+        
+        form {
+            background-color: $backgroundgrayish;
+            display: inline-flex;
+            flex-direction: column;
+            padding-top: 25px;
+            padding-bottom: 25px;
+            padding-left: 50px;
+            padding-right: 50px;
+            border-radius: 25px;
+    
+            .form-group {
+                display: inline-flex;
+                flex-direction: column;
+                padding: 10px;
+
+                p {
+                    margin: 0;
+                }
+
+                input {
+                    font-family: $fontPoppins;
+                }
+
+                select {
+                    font-family: $fontPoppins;
+                    padding: 10px;
+                    border-radius: 10px;
+                }
+
+                textarea {
+                    font-family: $fontPoppins;
+                    padding: 10px;
+                    border-radius: 10px;
+                    height: 150px;
+                }
+                
+                .fieldbox {
+                    padding: 10px;
+                    border-radius: 10px;
+                }
+
+                #submit {
+                    width: 400px;
+                    height: 50px;
+                    font-family: $fontPoppins;
+                    border-radius: 10px;
+                    background-color: $backgroundgray;
+                    color: white;
+                    transition: 100ms;
+                }
+
+                #submit:hover {
+                    background-color: white;
+                    color: $backgroundgrayish;
+                }
+            }
+        }
+    }
+
+    footer {
+        background-color: $backgroundgray;
+        margin-top: 100px;
+        text-align: center;
+        padding: 25px;
+        
+        h4 {
+            padding: 5px;
+            margin: 0;
+            font-weight: 600;
+        }
+        
+        p {
+            margin: 0;
+            font-weight: 100;
+        }
+
+        .icons {
+            cursor: pointer;
+            padding: 10px;
+
+            a {
+                text-decoration: none;
+                color: white;
+                i {
+                    padding: 5px;
+                }
+            }
+
+        }   
+        
+    }
+}

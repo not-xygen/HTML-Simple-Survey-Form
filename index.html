@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Form</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d7998393da.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <h1 id="title">SpaceX Satellite Launch Form</h1>
+        <p id="description">Fill out the form to launch your satellite to space</p>
+    </header>
+    <main>
+        <form id="survey-form">
+            <div class="form-group" id="nameField">
+                <label for="name">Name</label>
+                <input class="fieldbox" type="text" id="name" placeholder="Enter your name">
+            </div>
+            <div class="form-group" id="emailField">
+                <label for="email">Email</label>
+                <input class="fieldbox" type="email" id="email" placeholder="Enter your Email">
+            </div>
+            <div class="form-group" id="ageField">
+                <label for="number">How many Payload or Satellite do you want to send?</label>
+                <input class="fieldbox" type="number" id="number" placeholder="Enter how many number of Payload">
+            </div>
+            <div class="form-group" id="radioField">
+                <p>Weight Payload :</p>
+                <div class="radioChoices">
+                    <input type="radio" id=">0-5t">
+                    <label for=">0-5t">>0 - 5 tons</label>
+                </div>
+                <div class="radioChoices">
+                    <input type="radio" id=">5-20t">
+                    <label for=">5-20t">>5 - 20 tons</label>
+                </div>
+                <div class="radioChoices">
+                    <input type="radio" id=">20-100t">
+                    <label for=">20-100t">>20 - 100 tons</label>
+                </div>        
+            </div>
+            <div class="form-group" id="dropdownField">
+                <label for="dropdown">What rocket do you want to use?</label>
+                <select id="dropdown">
+                    <option disabled selected value="">Select which rocket</option>
+                    <option value="Falcon 1">Falcon 1</option>
+                    <option value="Falcon 9">Falcon 9</option>
+                    <option value="Falcon Heavy">Falcon Heavy</option>
+                    <option value="Starship">Starship</option>
+                </select>
+            </div>
+            <div class="form-group" id="textareaField">
+                <label for="textarea">Additional Information</label>
+                <textarea id="textarea" placeholder="Type in additional information of the Payload"></textarea>
+            </div>
+            <div class="form-group" id="checkboxField">
+                <p>Add-ons for onboard Service :</p>
+                <div class="checkboxChoices">
+                    <input type="checkbox" name="telemetry" id="telemetry">
+                    <label for="telemetry">Telemetry Boost for Payload</label>
+                </div>
+                <div class="checkboxChoices">
+                    <input type="checkbox" name="comms" id="comms">
+                    <label for="comms">Ground Services from SpaceX</label>
+                </div>
+                <div class="checkboxChoices">
+                    <input type="checkbox" name="battery" id="battery">
+                    <label for="battery">Extra Power from Second Stage</label>
+                </div>
+                <div class="checkboxChoices">
+                    <input type="checkbox" name="orbit+" id="orbit+">
+                    <label for="orbit+">Changing Orbit for the Payload</label>
+                </div>
+            </div>
+            <div class="form-group" id="submit-button">
+                <button type="submit" id="submit">Submit</button>
+            </div>
+        </form>
+    </main>
+    <footer class="footer">
+        <h4>About me</h4>
+        <p>Hey, i'm Dhaffa Agus, A person who likes to do & learn code</p>
+        <div class="icons">
+            <a href="https://www.facebook.com/DhaffaAgus09/"><i class="fab fa-facebook-f"></i></a>
+            <a href=""><i class="fab fa-twitter"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+            <a href=""><i class="fab fa-linkedin"></i></a>
+        </div>
+        <p>Made with <i class="far fa-heart"></i> by Dhaffa Agus</p>
+    </footer>
+</body>
+</html>

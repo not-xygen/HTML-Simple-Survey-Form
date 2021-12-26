@@ -1,0 +1,135 @@
+body {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(4, 9, 30, 0.7)), to(rgba(4, 9, 30, 0.7))), url(https://www.teslarati.com/wp-content/uploads/2021/08/Super-Heavy-B4-Starship-S20-fit-check-080621-SpaceX-10-crop-c.jpg);
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(https://www.teslarati.com/wp-content/uploads/2021/08/Super-Heavy-B4-Starship-S20-fit-check-080621-SpaceX-10-crop-c.jpg);
+  color: white;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+body header {
+  text-align: center;
+  padding: 25px;
+}
+
+body header h1 {
+  margin: 0;
+}
+
+body header p {
+  margin: 0;
+}
+
+body header img {
+  position: relative;
+}
+
+body main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body main form {
+  background-color: #1a1a1a;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 25px;
+}
+
+body main form .form-group {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 10px;
+}
+
+body main form .form-group p {
+  margin: 0;
+}
+
+body main form .form-group input {
+  font-family: "Poppins";
+}
+
+body main form .form-group select {
+  font-family: "Poppins";
+  padding: 10px;
+  border-radius: 10px;
+}
+
+body main form .form-group textarea {
+  font-family: "Poppins";
+  padding: 10px;
+  border-radius: 10px;
+  height: 150px;
+}
+
+body main form .form-group .fieldbox {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+body main form .form-group #submit {
+  width: 400px;
+  height: 50px;
+  font-family: "Poppins";
+  border-radius: 10px;
+  background-color: #262626;
+  color: white;
+  -webkit-transition: 100ms;
+  transition: 100ms;
+}
+
+body main form .form-group #submit:hover {
+  background-color: white;
+  color: #1a1a1a;
+}
+
+body footer {
+  background-color: #262626;
+  margin-top: 100px;
+  text-align: center;
+  padding: 25px;
+}
+
+body footer h4 {
+  padding: 5px;
+  margin: 0;
+  font-weight: 600;
+}
+
+body footer p {
+  margin: 0;
+  font-weight: 100;
+}
+
+body footer .icons {
+  cursor: pointer;
+  padding: 10px;
+}
+
+body footer .icons a {
+  text-decoration: none;
+  color: white;
+}
+
+body footer .icons a i {
+  padding: 5px;
+}
+/*# sourceMappingURL=index.css.map */
